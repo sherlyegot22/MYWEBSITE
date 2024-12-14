@@ -1,0 +1,44 @@
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #8b4513;
+    text-align: center;
+}
+
+.profile-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+h1 {
+    font-size: 4em;
+    color: white;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: white;
+    margin-top: 20px;
+}
+
+p {
+    color: white;
+    line-height: 1.6;
+}
+
+a {
+    color: #3498db;
+    text-decoration: none;
+}
